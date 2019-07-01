@@ -28,7 +28,7 @@ The Crazyflie line of micro quads was created by Bitcraze AB. An overview of the
 
 ## Flashing PX4
 
-After setting up the PX4 development environment, follow these steps to install the PX4 Autopilot on the Crazyflie 2.0:
+After setting up the [PX4 development environment](http://dev.px4.io/en/setup/dev_env.html), follow these steps to install the PX4 Autopilot on the Crazyflie 2.0:
 
 1. Download the source code of the PX4 Bootloader:
    ```
