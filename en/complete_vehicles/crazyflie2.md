@@ -62,6 +62,7 @@ After setting up the PX4 development environment, follow these steps to install 
    ```
    git clone https://github.com/PX4/Firmware.git
    ```
+1. Install latest version of `arm-none-eabi-gcc` compiler from [arm.com](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads)
 1. Navigate into the top directory of the source code and compile it using:
    ```
    make bitcraze_crazyflie_default upload
