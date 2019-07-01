@@ -32,10 +32,11 @@ After setting up the PX4 development environment, follow these steps to install 
 
 1. Download the source code of the PX4 Bootloader:
    ```
-   git clone https://github.com/PX4/Bootloader.git
+   git clone --recursive https://github.com/PX4/Bootloader.git
    ```
 1. Navigate into the top directory of the source code and compile it using:
    ```
+   cd Bootloader
    make crazyflie_bl
    ```
 1. Put the Crazyflie 2.0 into DFU mode by following these steps:
